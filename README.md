@@ -29,5 +29,9 @@ This will install all the git filters which you can check with `git config --lis
 
 * Filters aren't gobal anymore
 * Removed `git visinit` alias 
+* split versions into Viz9 and Viz 8 versions
+* adding and removing filters 
+* changes over gitIgnore to support Headless Build
+* adding git attributes
 
 ## [Original Project](https://github.com/mig82/visualizer-and-git)
