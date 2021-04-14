@@ -31,4 +31,7 @@ git config filter.pretty_json.clean "jq --indent 4 --sort-keys ."
 # Version nativeapi.json but not the properties inside it that store absolute paths.
 git config filter.kony_native_api_json.clean "jq --indent 4 -j 'del(..|(.url?,.filepath?))'"
 
+# ignore permissions change when visualizer modify a file
+git config  core.filemode false
+
 echo "Done: Git filters for Visualizer"

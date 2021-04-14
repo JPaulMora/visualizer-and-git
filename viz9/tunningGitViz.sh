@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
-
 #############################################################
 # From https://github.com/JPaulMora/visualizer-and-git      #
 # Original https://github.com/mig82/visualizer-and-git      #
 # @Author: Miguelangel Fernandez                            #
 #############################################################
-
 # Run this script in order to define the filters that will prettify some of the
 # files in your visualizer project and ignore the non-important metadata in some
 # other project files.
