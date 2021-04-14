@@ -24,3 +24,39 @@ globalVariables.json filter=pretty_json
 
 # Filter out the url and filepath properties in Native API mappings.
 nativeapi.json filter=kony_native_api_json
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.php text
+*.css text
+*.js text
+*.htm text
+*.html text
+*.txt text
+*.ini text
+*.inc text
+.htaccess text
+*.json     text
+*.toml     text
+*.xml      text
+*.yaml     text
+*.yml      text
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+# Auto detect text files and perform LF normalization
+* text=auto
+

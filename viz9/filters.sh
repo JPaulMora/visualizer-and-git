@@ -11,5 +11,6 @@
 # other project files.
 # Prettify and sort all views -i.e. forms, templates, reusable components and pop-ups and ignore WYSIWYG metadata.
 git config filter.kony_views.clean "jq --indent 4 -j 'del(.device, .prevDevice, .platform, .prevPlatform, .shellCSS, .currentLocale, .osPlatform, .osVersion, .globalUserWidgetRefs)'"
-# Prettify and sort generic JSON files such as mobileFabricServiceConfigMap.json and objectServicesConfigMap.json
+# ignore permissions change when visualizer modify a file
+git config  core.filemode false
 echo "Done: Git filters for Visualizer"
