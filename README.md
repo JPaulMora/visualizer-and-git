@@ -34,6 +34,6 @@ This will install all the git filters which you can check with `git config --lis
 * adding and removing filters 
 * changes over gitIgnore to support Headless Build
 * adding git attributes
-Ignore permissions changes: auto configuring the property core.filemode = false to ignore the mode changes.
-Normalize EOL: no matter if you're working on a Windows machine, and your collaborator has made a change in OS X no changes regarless to end of lines will be detected. To correct the existing files in the current repo is check: https://docs.github.com/en/github/getting-started-with-github/configuring-git-to-handle-line-endings 
+* Ignore permissions changes: auto configuring the property core.filemode = false to ignore the mode changes.
+* Normalize EOL: no matter if you're working on a Windows machine, and your collaborator has made a change in OS X no changes regarless to end of lines will be detected. To correct the existing files in the current repo is check: https://docs.github.com/en/github/getting-started-with-github/configuring-git-to-handle-line-endings 
 ## [Original Project](https://github.com/mig82/visualizer-and-git)
