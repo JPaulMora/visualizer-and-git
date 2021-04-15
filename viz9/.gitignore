@@ -36,8 +36,14 @@ resources/customlibs/lib/windows10/
 resources/customlibs/lib/winphone10/
 
 # Other Visualizer auto-generated files.
-/.meta
+# /.meta 
+# /.webmeta
 /middleware.properties
+
+# exclude the object model from the repository
+
+/models/*
+
 
 # IMPORTANT: This must NEVER be placed in SCM because it stores the app's key and secret.
 /mBaas.properties
